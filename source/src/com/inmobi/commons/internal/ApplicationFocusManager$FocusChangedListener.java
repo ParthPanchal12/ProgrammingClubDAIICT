@@ -1,0 +1,15 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: braces fieldsfirst space lnc 
+
+package com.inmobi.commons.internal;
+
+
+// Referenced classes of package com.inmobi.commons.internal:
+//            ApplicationFocusManager
+
+public static interface 
+{
+
+    public abstract void onFocusChanged(boolean flag);
+}

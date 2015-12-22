@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spock.programmingclubdaiict" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme"
+
+        >
+
+        <activity
+            android:name=".CommentView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.COMMENTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutDevelopers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.ABOUTDEVELOPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.EVENTLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlogListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.BLOGLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CategoryListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.CATEGORYLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnnouncementListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.ANNOUNCEMENTLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnnouncementView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.ANNOUNCEMENTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BlogView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.BLOGVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlogCategoryListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.BLOGCATEGORYLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.spock.programmingclubdaiict.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.example.spock.programmingclubdaiict.MyAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name="com.example.spock.programmingclubdaiict.MyReceiver"/>
+
+        <service android:name="com.example.spock.programmingclubdaiict.service.ScheduleService" />
+        <service android:name="com.example.spock.programmingclubdaiict.service.NotifyService" />
+
+    </application>
+
+
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="raw" name="app_id">res/raw/app_id</item>
+    <item type="raw" name="myrandom">res/raw/myrandom</item>
+    <item type="raw" name="myrandom2">res/raw/myrandom2</item>
+</resources>

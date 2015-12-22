@@ -1,0 +1,42 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: braces fieldsfirst space lnc 
+
+package com.inmobi.monetization.internal.imai;
+
+import android.webkit.WebView;
+import com.inmobi.commons.internal.Log;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+// Referenced classes of package com.inmobi.monetization.internal.imai:
+//            WebviewLoader
+
+class a
+    implements Runnable
+{
+
+    final WebviewLoader a;
+
+    public void run()
+    {
+        try
+        {
+            if (WebviewLoader.a(a) != null)
+            {
+                WebviewLoader.b.set(false);
+            }
+            WebviewLoader.a(a).stopLoading();
+            return;
+        }
+        catch (Exception exception)
+        {
+            Log.internal("[InMobi]-[Monetization]", "Exception stop loading", exception);
+        }
+    }
+
+    (WebviewLoader webviewloader)
+    {
+        a = webviewloader;
+        super();
+    }
+}

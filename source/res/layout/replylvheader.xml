@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+        <ImageView android:id="@id/user_portrait" android:layout_width="41.0dip" android:layout_height="41.0dip" android:src="@drawable/fb_default_dev_portrait" android:scaleType="centerCrop" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff070707" android:id="@id/headertv" android:background="@drawable/fb_user_reply_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Hi dear, I'm the customer service of AIO Downloader. You can download millions of app, wallpaper, mp3, video with AIO Downloader." />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+        <ImageView android:id="@id/user_portrait" android:layout_width="41.0dip" android:layout_height="41.0dip" android:src="@drawable/fb_default_dev_portrait" android:scaleType="centerCrop" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff070707" android:gravity="center" android:id="@id/headertv" android:background="@drawable/fb_user_reply_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="What can I help you?" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="180.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.allinone.free.views.OverScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/leftdown" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftdownload" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/leftdowntv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Downloads" />
+                <TextView android:layout_gravity="center" android:id="@id/badgetv" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+            </LinearLayout>
+            <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/leftapp" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftapp" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/leftapptv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="App" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/leftgame" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftgame" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/leftgametv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Game" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/leftmini" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftmini" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/leftminitv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Mini Game" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/leftvideo" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftvideo" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/leftvideotv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Video" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/leftmusic" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftmusic" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/leftmusictv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Music" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/leftringtone" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/leftringtone" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/leftringtonetv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Ringtone" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/leftfd" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/leftfeed" />
+                    <TextView android:textColor="#ffcfcfcf" android:layout_gravity="center" android:id="@id/leftfeedbacktv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="FeedBack" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/leftsetting" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/oi" />
+                    <TextView android:textColor="#ffcfcfcf" android:layout_gravity="center" android:id="@id/leftseetingtv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Settings" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/leftshare" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/leftshare" />
+                    <TextView android:textColor="#ffcfcfcf" android:layout_gravity="center" android:id="@id/leftsharetv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Share" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/leftupdate" android:background="@drawable/leftbg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/leftupdate" />
+                    <TextView android:textColor="#ffcfcfcf" android:layout_gravity="center" android:id="@id/leftupdatetv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Update" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.allinone.free.views.OverScrollView>
+</RelativeLayout>

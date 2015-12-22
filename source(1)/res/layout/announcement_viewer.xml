@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dip" android:textStyle="bold" android:id="@id/textViewAnn1" android:background="#ffc9deee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:textAllCaps="true" />
+    <TextView android:textColorLink="#ffff3e55" android:autoLink="web" android:id="@id/textViewAnn2" android:background="#ffd4eee3" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" />
+</LinearLayout>

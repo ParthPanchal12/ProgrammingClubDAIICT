@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/facebookbanner" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mytop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/facebookbanner">
+            <LinearLayout android:orientation="vertical" android:id="@id/appline" android:background="@drawable/appbtnbg" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/appsbg" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="APP" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/gameline" android:background="@drawable/gamebtnbg" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/minigamebg" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Game" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/paidline" android:background="@drawable/paidbtnbg" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/paid" android:layout_centerInParent="true" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crack" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/datingline" android:background="@drawable/adultbtnbg" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/adult" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Adult" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mytop2" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="10.0dip" android:weightSum="2.0" android:layout_below="@id/mytop">
+            <RelativeLayout android:id="@id/playnowline" android:background="@drawable/homeitembg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/funnew" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:layout_gravity="center" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/funny" />
+                    <TextView android:textColor="#ff333333" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Funny" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/havetryline" android:background="@drawable/homeitembg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/today" />
+                <TextView android:textColor="#ff333333" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Today's Pick" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/mytop2" />
+    </RelativeLayout>
+</RelativeLayout>

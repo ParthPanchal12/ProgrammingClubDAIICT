@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:dividerPadding="6dp"
+    android:divider="#ff000000"
+    android:padding="6dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="6dp"
+        android:dividerPadding="6dp"
+        android:showDividers="beginning|middle|end"
+        android:divider="#ff000000">
+
+
+
+        <ImageView
+            android:layout_weight="4.75"
+            android:layout_width="0dp"
+            android:padding="6dp"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/blogs_final"
+            android:id="@+id/blogs"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent"
+            android:background="#0015b0ff" />
+        <ImageView
+            android:layout_weight="4.75"
+            android:layout_width="0dp"
+            android:padding="6dp"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/event_final"
+            android:id="@+id/event"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="6dp"
+        android:divider="#ff000000"
+        android:dividerPadding="6dp">
+        <ImageView
+            android:layout_weight="4.75"
+            android:layout_width="0dp"
+            android:padding="6dp"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/annnouncement_final"
+            android:id="@+id/announcement" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent"
+            android:background="#010fc8ff" />
+        <ImageView
+            android:layout_weight="4.75"
+            android:layout_width="0dp"
+            android:padding="6dp"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/cat_final"
+            android:id="@+id/category"/>
+    </LinearLayout>
+
+
+</LinearLayout>
